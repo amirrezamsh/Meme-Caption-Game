@@ -1,0 +1,66 @@
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.custom-container {
+  margin-top: 5rem;
+  padding: 0 3rem;
+}
+
+.total-score {
+  font-size: 22px;
+  display: inline-block;
+  border-radius: 10px;
+  color: white;
+  padding: 0.6rem;
+  background-color: #42c277;
+}
+
+.list-group {
+  padding: 0 !important;
+}
+
+.no-games {
+  text-align: center;
+}
+
+.report-img {
+  width: 100px !important;
+}
+
+.rounds .round:not(:last-child) {
+  border-bottom: solid 1px;
+  border-image: linear-gradient(to right, lightgray, black, lightgray) 1;
+}
+.round {
+  padding: 0.5rem 0;
+}
+
+.round {
+  padding: 0.5rem 0;
+}
+
+.correct-answer {
+  color: #42c277;
+}
+.incorrect-answer {
+  color: grey;
+}
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.size-6 {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
